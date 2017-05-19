@@ -1,0 +1,11 @@
+
+
+・GoogleMapAPI
+
+
+・GoogleMapAPI
+　json形式で返ってくる。
+　結果から値を抽出する場合は、結果を解析する場合があるがJSONの解析は比較的簡単・・・？
+　https://developers.google.com/maps/documentation/directions/intro?hl=ja#TravelModes
+
+
