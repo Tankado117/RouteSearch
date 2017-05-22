@@ -1,0 +1,23 @@
+@{
+    Layout = null;
+}
+<!--住所と地理的座標を変換するAPI
+    Geocoding API：FAIzaSyD7ozwnLAJIabVGGhPFWi4_LkomlnKIQMY-->
+<!--複数の目的地への移動時間と距離
+    Distance Matrix API：FAIzaSyAuTiBZpYOkHXaxXfWxxlx0idMyEwB0RNs-->
+<!--複数の地点間の道順を特定します
+    Directions API：FAIzaSyBUe_YyArohSvfbXkhUnMyihCaBbtSQky0-->
+
+<html>
+<body>
+  <p>
+      【出発地】
+      @ViewData["origin"]
+  </p>
+
+  <p>
+      【目的地】
+      @ViewData["destination"]
+  </p>
+</body>
+</html>
